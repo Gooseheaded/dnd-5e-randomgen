@@ -1,0 +1,61 @@
+/*
+ ================================================================================
+	Copyright (c) 2020 Gooseheaded. All rights reserved.
+ ================================================================================
+/*
+
+$name : DnD 5e basic weapon set
+$author : Gooseheaded
+$description : Provides one piece of weapon from PHB. Last updated on 3:28 PM 07-Jun-20.
+/*
+$picture : http://.../pic.png
+*/
+$amount : 1
+$button : Get weapon!
+
+/*
+Raw list of weapons.
+*/
+$simple-melee-weapons
+Club {cost:1 sp}{damage:1d4 Bludgeoning}{properties:Light}
+Dagger {cost:2 gp}{damage:1d4 Piercing}{properties:Finesse, Light, Thrown (20/60)}
+Great-Club {cost:2 sp}{damage:1d8 Bludgeoning}{properties:Two-Handed}
+Hand-Axe {cost:5 gp}{damage:1d6 Slashing}{properties:Light, Thrown (20/60)}
+Javelin {cost:5 sp}{damage:1d6 Piercing}{properties:Thrown (30/120)}
+Light Hammer {cost:2 gp}{damage:1d4 Bludgeoning}{properties:Light, Thrown (20/60)}
+Mace {cost:5 gp}{damage:1d6 Bludgeoning}
+Quarterstaff {cost:2 sp}{damage:1d6 Bludgeoning}{properties:Versatile (1D8)}
+Sickle {cost:1 gp}{damage:1d4 Slashing}{properties:light}
+Spear {cost:1 gp}{damage:1d6 Piercing}{properties:Thrown (20/60), Versatile (1D8)}
+
+$simple-ranged-weapons
+Light crossbow {cost:25 gp}{damage:1d8 Piercing}{properties:Ammunition, Range (80/320), loading, two-handed}
+Dart {cost:5 cp}{damage:1d4 Piercing}{properties:Finesse, Thrown (20/60)}
+Shortbow {cost:25 gp}{damage:1d6 Piercing}{properties:Ammunition, Range (80/320), Two-Handed}
+Sling {cost:1 sp}{damage:1d4 Piercing}{properties:Ammunition, Range (30/120)}
+
+$martial-melee-weapons
+Battleaxe {cost:10 gp}{damage:1d8 Slashing}{properties:Versatile (1D10)}
+Flail {cost:10 gp}{damage:1d8 Bludgeoning}
+Glaive {cost:20 gp}{damage:1d10 Slashing}{properties:Heavy, Reach, Two-Handed}
+Greataxe {cost:30 gp}{damage:1d12 Slashing}{properties:Heavy, Two-Handed}
+Great-sword {cost:50 gp}{damage:2d6 Slashing}{properties:Heavy, Two-Handed}
+Halberd {cost:20 gp}{damage:1d10 Slashing}{properties:Heavy, Reach, Two-Handed}
+Lance {cost:10 gp}{damage:1d12 Piercing}{properties:Reach, Special}
+Long-sword {cost:15 gp}{damage:1d8 Slashing}{properties:Versatile (1D10)}
+Maul {cost:10 gp}{damage:2d6 Bludgeoning}{properties:Heavy, Two-Handed}
+Morning-star {cost:15 gp}{damage:1d8 Piercing}
+Pike {cost:5 gp}{damage:1d10 Piercing}{properties:Heavy, Reach, Two-Handed}
+Rapier {cost:25 gp}{damage:1d8 Piercing}{properties:Finesse}
+Scimitar {cost:25 gp}{damage:1d6 Slashing}{properties:Finesse, Light}
+Short-sword {cost:10 gp}{damage:1d6 Piercing}{properties:Finesse, Light}
+Trident {cost:5 gp}{damage:1d6 Piercing}{properties:Thrown (20/60), Versatile (1D8)}
+War pick {cost:5 gp}{damage:1d8 Piercing}
+War-hammer {cost:15 gp}{damage:1d8 Bludgeoning}{properties:Versatile (1D10)}
+Whip {cost:2 gp}{damage:1d4 Slashing}{properties:Finesse, Reach}
+
+$martial-ranged-weapons
+Blowgun {cost:10 gp}{damage:1 Piercing}{properties:Ammunition, Range (25/100), Loading}
+Hand crossbow {cost:75 gp}{properties:1d6 Piercing}{properties: Ammunition (range 30/120, light, loading)}
+Heavy Crossbow {cost:50 gp}{damage:1d10 Piercing}{properties:Ammunition, (range 100,400), heavy, loading, two-handed}
+Longbow {cost:50 gp}{damage:1d8 Piercing}{properties:Ammunition, Range (150/600), Heavy, Two-Handed}

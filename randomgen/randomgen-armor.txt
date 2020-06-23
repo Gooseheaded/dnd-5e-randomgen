@@ -1,0 +1,62 @@
+/*
+ ================================================================================
+	Copyright (c) 2020 Gooseheaded. All rights reserved.
+ ================================================================================
+/*
+
+$name : DnD 5e basic armor set
+$author : Gooseheaded
+$description : Provides one piece of armor from PHB. Last updated on 3:28 PM 07-Jun-20.
+/*
+$picture : http://.../pic.png
+*/
+$amount : 3
+$button : Get armor!
+
+/*
+Raw list of armors.
+*/
+$light-armor
+Padded armor {cost:5 gp}{ac:11 + Dex modifier}
+Leather armor {cost:10 gp}{ac:11 + Dex modifier}
+Studded armor {cost:45 gp}{ac:12 + Dex modifier}
+
+$medium-armor
+Hide armor {cost:10 gp}{ac:12 + Dex modifier (max 2)}
+Chain shirt {cost:50 gp}{ac:13 + Dex modifier (max 2)}
+Scale mail {cost:50 gp}{ac:14 + Dex modifier (max 2)}
+Breastplate {cost:400 gp}{ac:14 + Dex modifier (max 2)}
+Half plate {cost:750 gp}{ac:15 + Dex modifier (max 2)}
+
+$heavy-armor
+Ring mail {cost:30 gp}{ac:14}
+Chain mail {cost:75 gp}{ac:16}
+Splint {cost:200 gp}{ac:17}
+Plate {cost:1500 gp}{ac:18}
+
+/*
+Armor grouped by cost.
+*/
+$cheap-armor
+Padded armor {cost:5 gp}{ac:11 + Dex modifier}
+Leather armor {cost:10 gp}{ac:11 + Dex modifier}
+Hide armor {cost:10 gp}{ac:12 + Dex modifier (max 2)}
+Ring mail {cost:30 gp}{ac:14}
+
+$fair-armor
+Studded armor {cost:45 gp}{ac:12 + Dex modifier}
+Chain shirt {cost:50 gp}{ac:13 + Dex modifier (max 2)}
+Scale mail {cost:50 gp}{ac:14 + Dex modifier (max 2)}
+Chain mail {cost:75 gp}{ac:16}
+
+$expensive-armor
+Studded armor {cost:45 gp}{ac:12 + Dex modifier}
+Breastplate {cost:400 gp}{ac:14 + Dex modifier (max 2)}
+Half plate {cost:750 gp}{ac:15 + Dex modifier (max 2)}
+Splint {cost:200 gp}{ac:17}
+Plate {cost:1500 gp}{ac:18}
+
+$>armor
+[light-armor]
+[medium-armor]
+[heavy-armor]

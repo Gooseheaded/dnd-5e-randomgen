@@ -1,0 +1,42 @@
+/*
+ ================================================================================
+	Copyright (c) 2020 Gooseheaded. All rights reserved.
+ ================================================================================
+/*
+
+$biz-type
+a blacksmith
+an enchanter
+an inn
+a tavern
+a magic shop
+a clothes shop
+a bookshop
+a petshop
+a shoe shop
+a flower shop
+a jewellery shop
+a barber shop
+a butcher shop
+a bakery
+a tea shop
+a carpenter's shop
+
+$comma-separated-biz-type
+[biz-type],[ ]
+
+$small-town
+A small town. There is [comma-separated-biz-type,x2-4] and [biz-type].
+
+$medium-town
+A medium town. There is [comma-separated-biz-type,x4-6] and [biz-type].
+
+$large-town
+A large town. There is [comma-separated-biz-type,x6-8] and [biz-type].
+
+$>town
+[small-town]
+[medium-town]
+[large-town]
+
+[town]
